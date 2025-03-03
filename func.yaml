@@ -1,0 +1,7 @@
+specVersion: 0.36.0
+name: myfunc
+runtime: go
+registry: docker.io/shiva2025docker
+created: 2025-03-01T23:52:58.253761-06:00
+build:
+  builder: pack

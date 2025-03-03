@@ -1,0 +1,11 @@
+specVersion: 0.36.0
+name: myfunc
+runtime: go
+registry: docker.io/shiva2025docker
+namespace: default
+created: 2025-03-01T23:55:48.063851-06:00
+build:
+  builder: pack
+deploy:
+  namespace: default
+  image: index.docker.io/shiva2025docker/myfunc@sha256:f295610b557b7ef51b2f0173077d958bf458abb9ac1664a2c5df7be84bb1065e
